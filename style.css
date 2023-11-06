@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+span {
+    color: rgb(244, 36, 36);
+}
+
+.header_nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dropdown {
+    width: 20%;
+    height: 30px;
+    font-size: 25px;
+    padding-left: 65px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    color: white;
+    display: inline-block;
+    padding: 15px;
+
+}
+
+nav ul li {
+    padding-left: 35px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    justify-self: center;
+}
+
+.select {
+    font-size: 20px;
+    border: none;
+    background-color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+p {
+    text-align: right;
+}
+
+.Number {
+    margin-right: 45px;
+    font-size: 20px;
+}
+
+.dropdown_lang {
+    display: none;
+}
+
+nav {
+    width: 99%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(207, 4, 4);
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+h1 {
+    color: white;
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+.searchbox {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.searchbox i {
+    font-size: 20px;
+    color: rgb(132, 136, 141);
+}
+
+.searchbox>input {
+    font-size: 18px;
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 20px;
+}
+
+.left-content,
+.right-content {
+    display: flex;
+    align-items: center;
+}
+
+.left-content select {
+    margin-left: 10px;
+    padding: 8px;
+}
+
+.space {
+    justify-content: space-between;
+}
+
+li a {
+    display: inline;
+    display: block;
+    padding: 10px;
+
+}
